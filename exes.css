@@ -1,0 +1,58 @@
+*{
+ 
+    margin: 1;
+    padding:1;
+    box-sizing: border-box; 
+}
+@font-face {
+    font-family: hola;
+    src: url(Roboto-Regular.ttf);
+}
+li{
+font-family: hola;
+}
+p{
+    color: black;
+}
+p:hover{
+    text-shadow: 5px -2px 0px yellow;
+}
+#im{
+    border-radius: 100%;
+    border: 2px inset gray;
+}
+#im:hover{
+    border: 2px inset red;
+}
+#dia{
+    background-color: black;
+    color: white;
+}
+#bot{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin: 10px auto;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    padding: 13px;
+    border-radius: 10px;
+    border: solid peru;
+}
+#bot:hover{
+    
+    box-shadow: 0 0 5px white;
+    border: solid peru;
+    background: black;
+    color: white;
+    transform: scale(1.2);
+}
+dd:hover {
+    color: aquamarine;
+}
+dt{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 8%, rgba(20,20,127,1) 37%, rgba(16,105,124,0.9828279357025589) 76%); 
+    color: white;
+}
+
